@@ -4,7 +4,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
+    "android": "npx expo start",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
@@ -15,7 +15,13 @@
     "react-native": "0.73.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.62",
+    "@types/react-native": "^0.73.0",
+    "@types/react-test-renderer": "^18.0.7",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
