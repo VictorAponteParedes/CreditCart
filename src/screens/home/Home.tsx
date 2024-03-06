@@ -1,8 +1,8 @@
 import React from "react";
 import { BalanceTotalScreen } from "../balance/balance-screens";
-import { AgregarTarjetaScreen } from "../AddTarjeta/AgregarTarjeta";
-import { AgregarUsuarioScreen } from "../addUsuario-screen/addUsuario-screen";
-import { CustomBottomMenuScreen } from "../menuButtom/menuButtom-screen";
+import { AgregarTarjetaScreen } from "../NuevaTarjeta/nueva-tarjeta-screen";
+import { AgregarUsuarioScreen } from "../NuevoUsuario/nuevo-usuario-screen";
+import { CustomBottomMenuScreen } from "../menuNavegacion/menu-navegacion-screen";
 import { View } from "react-native";
 
 export const Home = () => {

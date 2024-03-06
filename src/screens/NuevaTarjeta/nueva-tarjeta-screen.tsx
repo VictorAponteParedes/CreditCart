@@ -1,5 +1,5 @@
 import React from "react";
-import { AgregarTarjeta } from "../../components/adicionTarjeta/AgregarTarjeta";
+import { AgregarTarjeta } from "../../components/NuevaTarjeta/nueva-tarjeta";
 
 export const AgregarTarjetaScreen = () => {
   return (
