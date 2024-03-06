@@ -23,15 +23,15 @@ export const CustomBottomMenu = ({ onSelect }) => {
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => onSelect("arrow-right-arrow-left")}>
-        <Icons name="arrow-right-arrow-left" size={25} color="#000" />
+        <Icons name="arrow-right-arrow-left" size={25} color="#ccc" />
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => onSelect("graph-pie")}>
-        <Icono name="graph-pie" size={25} color="#000" />
+        <Icono name="graph-pie" size={25} color="#ccc" />
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => onSelect("cog")}>
-        <Icon name="cog" size={25} color="#000" />
+        <Icon name="cog" size={25} color="#ccc" />
       </TouchableOpacity>
     </View>
   );
