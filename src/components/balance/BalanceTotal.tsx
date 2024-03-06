@@ -89,7 +89,11 @@ export const BalanceTotal = (props: BalanceProps) => {
           </View>
 
           <View style={{ flexDirection: "row", alignItems: "center" }}>
-            <Icon name="arrow-top-right-thick" solid style={{ color: "red" }} />
+            <Icon
+              name="arrow-bottom-left-thick"
+              solid
+              style={{ color: "red" }}
+            />
             <Text style={{ color: "red" }}>{descuento}</Text>
           </View>
         </View>
